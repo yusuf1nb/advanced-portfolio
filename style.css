@@ -157,7 +157,7 @@ p {
   background-color: #242424;
 }
 .dark-theme #personal-logo {
-  filter: none;
+  filter: invert();
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -280,9 +280,8 @@ nav {
 }
 
 #personal-logo {
-  filter: invert();
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 .nav__link {
@@ -566,7 +565,9 @@ footer {
 }
 
 .footer__logo--img {
-  width: 70px;
+  width: 88px;
+  height: 88px;
+  filter: invert();
 }
 
 .footer__social--link,
@@ -576,6 +577,7 @@ footer {
 
 .footer__social--list {
   width: 100%;
+  max-width: 500px;
   display: flex;
   justify-content: space-around;
   margin: 28px 0;
