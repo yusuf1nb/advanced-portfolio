@@ -59,6 +59,7 @@ section {
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
+  color: #242424;
 }
 
 .click {
@@ -74,8 +75,8 @@ section {
   transform: scale(0.8);
 }
 
-.orange {
-  color: #f06449;
+.green {
+  color: #4bb543;
 }
 
 input,
@@ -99,7 +100,7 @@ textarea:hover {
 
 input:focus,
 textarea:focus {
-  border-color: #f06449;
+  border-color: #4bb543;
 }
 
 textarea {
@@ -150,7 +151,8 @@ p {
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para {
+.dark-theme .header__para,
+.dark-theme .social__link {
   color: white;
 }
 .dark-theme section {
@@ -167,8 +169,12 @@ p {
   background-color: white;
 }
 .dark-theme .mail__button {
-  background-color: white;
+  background-color: #4bb543;
   color: #242424;
+}
+
+.dark-theme .green{
+  color: #4bb543;
 }
 
 /* LANDING PAGE */
@@ -191,6 +197,7 @@ p {
   line-height: 2;
   font-size: 24px;
   max-width: 450px;
+  color: #242424;
 }
 
 .social__list {
@@ -199,8 +206,8 @@ p {
 }
 
 .social__link {
-  background-color: #f06449;
-  color: white;
+  background-color: #4bb543;
+  color: #242424;
   padding: 6px;
   width: 32px;
   height: 32px;
@@ -218,7 +225,7 @@ p {
   font-size: 32px;
   border-radius: 50%;
   border: none;
-  background-color: #242424;
+  background-color: #4bb543;
   color: white;
   position: fixed;
   bottom: 32px;
@@ -368,16 +375,19 @@ nav {
 
 .modal__title {
   font-size: 28px;
+  color: #242424;
 }
 
 .modal__subtitle {
   margin: 12px 0 24px 0;
   font-size: 14px;
+  color: #242424;
 }
 
 .modal__para {
   margin-bottom: 12px;
   line-height: 1.75;
+  color: #242424;
 }
 
 .modal__language:hover .language__name {
@@ -401,8 +411,8 @@ nav {
 }
 
 .form__submit {
-  background-color: #f06449;
-  border: 2px solid #f06449;
+  background-color: #4bb543;
+  border: 2px solid #4bb543;
   color: white;
   font-weight: 700;
   width: 100%;
@@ -418,8 +428,8 @@ nav {
 }
 
 .form__submit:active {
-  border-color: #f06449;
-  color: #f06449;
+  border-color: #4bb543;
+  color: #4bb543;
 }
 
 .modal__overlay {
@@ -481,6 +491,7 @@ nav {
   font-size: 48px;
   margin-bottom: 60px;
   transition: all 300ms ease;
+  color: #242424;
 }
 
 .project__img {
